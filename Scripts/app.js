@@ -75,7 +75,7 @@ function productsPage()
     // Product 1 img
      currentNode = document.getElementById("book1Img");
      var newNode = document.createElement("img")
-     newNode.setAttribute("src", "./images/graphic-design-mis.png");
+     newNode.setAttribute("src", "./images/");
      newNode.setAttribute("width", "200px");
      newNode.setAttribute("height", "200px");
      currentNode.appendChild(newNode);
@@ -116,7 +116,7 @@ function servicesPage()
     // Service 1 img
     currentNode = document.getElementById("service1Img");
     var newNode = document.createElement("img")
-    newNode.setAttribute("src", "./images/graphic-design-mis.png");
+    newNode.setAttribute("src", "./images/graphicdesignmis.png");
     newNode.setAttribute("width", "200px");
     newNode.setAttribute("height", "200px");
     currentNode.appendChild(newNode);
