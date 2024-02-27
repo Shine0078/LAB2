@@ -75,7 +75,7 @@ function productsPage()
     // Product 1 img
      currentNode = document.getElementById("book1Img");
      var newNode = document.createElement("img")
-     newNode.setAttribute("src", "./images/");
+     newNode.setAttribute("src", "./images/book1.png");
      newNode.setAttribute("width", "200px");
      newNode.setAttribute("height", "200px");
      currentNode.appendChild(newNode);
@@ -85,8 +85,8 @@ function productsPage()
      currentNode.appendChild(newNode);
     // Product 2 img
      currentNode = document.getElementById("book2Img");
-     newNode = document.createElement("./images/Mindset.png")
-     newNode.setAttribute("src", ".");
+     newNode = document.createElement("img")
+     newNode.setAttribute("src", "./images/Mindset.png");
      newNode.setAttribute("width", "200px");
      newNode.setAttribute("height", "200px");
      currentNode.appendChild(newNode);
